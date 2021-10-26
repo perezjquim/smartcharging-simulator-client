@@ -5,7 +5,9 @@
 		<List 
 			selectionChange="onSelectSim" 
 			items="{sim_list>/}" 
-			mode="SingleSelectMaster">
+			mode="SingleSelectMaster"
+			growing="true"
+			growingThreshold="100">
 			<StandardListItem
 				title="{sim_list>description}"/>
 		</List>
